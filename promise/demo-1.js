@@ -1,5 +1,5 @@
 var prom1 = new Promise(function(resolve, reject) {
-  let truth = 5 > 0;
+  let truth = true;
 
   if (truth) {
     return resolve('Hi Baby');
