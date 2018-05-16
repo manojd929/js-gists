@@ -16,5 +16,6 @@ var person1 = new peopleProto();
 person1.name = "John";
 person1.printPerson();
 
+console.dir(person1);
 console.log('age' in person1);
 console.log(person1.hasOwnProperty('age'));

@@ -8,6 +8,8 @@ peopleDynamicProto.prototype.printPerson = function() {
   console.log(this.name, this.age, this.city);
 };
 
+console.dir(peopleDynamicProto);
+
 var person1 = new peopleDynamicProto('Joe', 21, 'CA');
 var person2 = new peopleDynamicProto('Rock', 23, 'LA');
 
