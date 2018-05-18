@@ -2,7 +2,7 @@
 // console.dir(Object);
 
 /* 
-Object.create(proptotypeObject, propertyObject);
+Object.create(prototypeObject, propertyObject);
 second arg is optional
 
 Helps to extend constructor , not class's methods and all
