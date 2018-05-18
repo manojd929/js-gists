@@ -1,4 +1,4 @@
-// Every ibject in JS is created from Master Object
+// Every object in JS is created from Master Object
 // console.dir(Object);
 
 /* 
