@@ -11,7 +11,7 @@ Helps to extend constructor , not class's methods and all
 const myObject = Object.create(Object.prototype);
 const myLiteral = {};
 const noProto = Object.create(null);
-console.dir('muObject: ', myObject);
+console.dir('myObject: ', myObject);
 console.dir('myLiteral: ', myLiteral);
 console.dir('noProto: ', noProto);
 
