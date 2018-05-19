@@ -9,13 +9,15 @@ var demo = function(arg1, arg2, arg3) {
 
 console.log("call: ", demo.call(obj1, 11, 12, 13));
 
-// not an array exactly, its an array like object. Its proto does not have array functionalities
+// Not an array exactly, its an array like object.
+// Its proto does not have array functionalities
 // we can however borrow functionalities of array explicitly
 // eg: [].slice.call(args);
 console.log("apply: ", demo.apply(obj2, [21, 22, 23]));
 
 // bind creates copy of the function
 // bind internally implements apply
-var copyDemo = demo.bind(obj1); // bind does not return a value it returns an object (function)
+// bind does not return a value it returns an object (function)
+var copyDemo = demo.bind(obj1);
 console.log("bind: ", copyDemo(31, 32, 33), '\n');
 console.dir(demo.bind(obj2));
