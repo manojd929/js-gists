@@ -1,0 +1,25 @@
+<!--
+  Better way of inserting elements into shadow Dom
+-->
+<html>
+  <head>
+    <title>Shadow Dom</title>
+  </head>
+  <body>
+    <div id="shadowHost">Hi</div>
+    <template id="tmp1">
+      <style>
+        * {
+          color: red;
+        }
+      </style>
+      <div>
+        Hello
+        <span class="name">
+          I am a shadow element
+        </span>
+      </div>
+    </template>
+    <script src="./demo-2.js"></script>
+  </body>
+</html>
