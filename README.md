@@ -1,6 +1,6 @@
 # js-gists
 
-Learning Javascript 
+Learning Javascript
 
 Following TechsithJS tutorials on youtube.
 
