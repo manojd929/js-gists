@@ -1,7 +1,7 @@
 var obj1 = { bar: 'bar-1', foo: 'foo-1', num: 3 };
 var obj2 = { bar: 'bar-2', foo: 'foo-2', num: 4 };
 
-// this value depends on whi called it not on where it was declared
+// this value depends on which called it not on where it was declared
 var demo = function(arg1, arg2, arg3) {
   console.log(this);
   return this.num + arg1 + arg2 + arg3;
